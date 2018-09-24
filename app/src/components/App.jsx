@@ -18,6 +18,9 @@ export class App extends React.Component{
         return (
             <div>
                 <div>
+                    This webpage is powered by React.js
+                </div>
+                <div>
                     You have clicked this button {this.state.clicks} times.
                 </div>
                 <div>

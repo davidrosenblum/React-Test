@@ -6,7 +6,6 @@ export const ROOT_DIR:string = "../app/build/";
 export class WebServer{
     private _httpApp:express.Application;
     private _httpServer:http.Server;
-    private _clicks:number;
 
     constructor(){
         // express
